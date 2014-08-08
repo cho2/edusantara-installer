@@ -17,7 +17,6 @@ Build-Depends: autotools-dev,
                gnome-common,
                valac
 Standards-Version: 3.9.2
-Homepage: https://bitbucket.org/mdamt/blankon-installer
 VCS-git: git clone git@github.com:Edusantara/edusantara-installer.git
 VCS-Browser: http://github.com/Edusantara/edusantara-installer
 

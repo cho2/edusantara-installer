@@ -1,8 +1,8 @@
 #!/usr/bin/make -f
 
-PACKAGE := blankon-installer
+PACKAGE := edusantara-installer
 
-configure/blankon-installer::
+configure/edusantara-installer::
 	./autogen.sh
 
 include /usr/share/cdbs/1/rules/debhelper.mk
