@@ -26,7 +26,7 @@ Depends: parted,
          grub-pc, 
          passwd, 
          initramfs-tools, 
-         blankon-repository-setup,
+         edusantara-repository-setup,
          plymouth-theme-blankon
          ${misc:Depends}, 
          ${shlibs:Depends}

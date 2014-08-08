@@ -10,20 +10,20 @@ AM_CPPFLAGS = \
 
 bin_PROGRAMS = edusantara-installer
 
-blankon_installer_SOURCES = \
+edusantara_installer_SOURCES = \
     main.vala \
 	installer.vala \
 	parted.vala \
     utils.vala \
 	$(NULL)
 
-blankon_installer_VALAFLAGS = \
+edusantara_installer_VALAFLAGS = \
     --vapidir ../vapi \
 	--pkg config \
     $(VALA_PACKAGES) \
     $(NULL)
 
-blankon_installer_LDADD = \
+edusantara_installer_LDADD = \
 	$(INSTALLER_LIBS) \
 	$(NULL)
 

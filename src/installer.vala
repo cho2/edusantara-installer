@@ -697,7 +697,7 @@ public class Installer : WebView {
     string translate_install(string uri) {
         var path = uri.replace("http://install/", "");
         if (path.has_prefix("show_log?")) {
-            uri = "file:///var/log/blankon-installer.log";
+            uri = "file:///var/log/edusantara-installer.log";
             return uri;
         } 
         return "about:blank";
